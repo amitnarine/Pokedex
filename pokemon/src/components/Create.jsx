@@ -66,11 +66,11 @@ export default function Create() {
                 type="text"
                 placeholder="Position"
               />
-              <div class="flex justify-center">
+              <div className="flex justify-center">
                 <div>
-                  <div class="form-check">
+                  <div className="form-check">
                     <input
-                      class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                      className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                       type="radio"
                       name="positionOptions"
                       id="positionIntern"
@@ -79,15 +79,15 @@ export default function Create() {
                       onChange={(e) => updateForm({ level: e.target.value })}
                     />
                     <label
-                      class="form-check-label inline-block text-white "
-                      for="flexRadioDefault1"
+                      className="form-check-label inline-block text-white "
+                      htmlFor="flexRadioDefault1"
                     >
                       Intern
                     </label>
                   </div>
-                  <div class="form-check">
+                  <div className="form-check">
                     <input
-                      class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                      className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                       type="radio"
                       name="positionOptions"
                       id="positionJunior"
@@ -96,15 +96,15 @@ export default function Create() {
                       onChange={(e) => updateForm({ level: e.target.value })}
                     />
                     <label
-                      class="form-check-label inline-block text-white "
-                      for="flexRadioDefault2"
+                      className="form-check-label inline-block text-white "
+                      htmlFor="flexRadioDefault2"
                     >
                       Junior
                     </label>
                   </div>
-                  <div class="form-check">
+                  <div className="form-check">
                     <input
-                      class="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                      className="form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                       type="radio"
                       name="positionOptions"
                       id="positionSenior"
@@ -113,8 +113,8 @@ export default function Create() {
                       onChange={(e) => updateForm({ level: e.target.value })}
                     />
                     <label
-                      class="form-check-label inline-block text-white "
-                      for="flexRadioDefault1"
+                      className="form-check-label inline-block text-white "
+                      htmlFor="flexRadioDefault1"
                     >
                       Senior
                     </label>
