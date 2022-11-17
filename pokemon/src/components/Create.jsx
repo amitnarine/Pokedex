@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
 
-export default function Create() {
+export const Skills = () => {
   const [form, setForm] = useState({
     name: "",
     position: "",
@@ -46,7 +46,7 @@ export default function Create() {
         src="https://wallpaperaccess.com/full/2784144.png"
         alt=""
       ></img>
-      <div className="fixed top-0 left-0 w-full h-screen"></div>
+
       <div className="fixed w-full px-4 py-24 z-50">
         <div className="max-w-[450px] h-[600px] mx-auto bg-black/75 text-white">
           <div className="max-w-[320px] mx-auto py-16">
@@ -130,4 +130,5 @@ export default function Create() {
       </div>
     </div>
   );
-}
+};
+export default Skills;
